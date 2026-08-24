@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshar Gupta - UI/UX Designer</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Fixed Background Canvas -->
+    <div class="canvas-container">
+        <canvas id="video-canvas"></canvas>
+        <div class="canvas-overlay"></div>
+    </div>
+
+    <!-- Main Layout -->
+    <div class="layout-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-icon">A</div>
+                <div class="logo-text">
+                    <h2>AKSHAR GUPTA</h2>
+                    <span>UI/UX Designer</span>
+                </div>
+            </div>
+
+            <nav class="main-nav">
+                <a href="#home" class="active"><i class="ph ph-house"></i> Home</a>
+                <a href="#about"><i class="ph ph-user"></i> About</a>
+                <a href="#services"><i class="ph ph-briefcase"></i> Services</a>
+                <a href="#portfolio"><i class="ph ph-folder"></i> Portfolio</a>
+                <a href="#skills"><i class="ph ph-code"></i> Skills</a>
+                <a href="#blog"><i class="ph ph-article"></i> Blog</a>
+                <a href="#contact"><i class="ph ph-envelope-simple"></i> Contact</a>
+            </nav>
+
+            <div class="hire-me-card">
+                <h3>Available for Freelance Projects</h3>
+                <p>Let's build something amazing together!</p>
+                <a href="#contact" class="btn btn-primary btn-full">Hire Me <i class="ph ph-arrow-right"></i></a>
+            </div>
+
+            <div class="cv-download">
+                <span>DOWNLOAD CV</span>
+                <a href="#" class="cv-link"><i class="ph ph-file-pdf"></i> Akshar_Gupta_CV.pdf</a>
+            </div>
+
+            <div class="social-links">
+                <span>FOLLOW ME</span>
+                <div class="icons">
+                    <a href="#"><i class="ph ph-dribbble-logo"></i></a>
+                    <a href="#"><i class="ph ph-behance-logo"></i></a>
+                    <a href="#"><i class="ph ph-linkedin-logo"></i></a>
+                    <a href="#"><i class="ph ph-github-logo"></i></a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content-area">
+            <!-- Top Nav -->
+            <header class="top-header">
+                <nav class="top-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <a href="#contact" class="btn btn-primary btn-sm">Let's Talk <i class="ph ph-paper-plane-tilt"></i></a>
+            </header>
+
+            <!-- Hero Section -->
+            <section id="home" class="hero-section">
+                <div class="hero-content">
+                    <span class="greeting">HELLO, I'M</span>
+                    <h1 class="hero-title">Akshar <span class="highlight">Gupta</span></h1>
+                    <h2 class="hero-subtitle">I Design Experiences That Make an <span class="highlight">Impact.</span></h2>
+                    <p class="hero-desc">I'm a UI/UX Designer helping startups and businesses create digital products users love.</p>
+                    <div class="hero-actions">
+                        <a href="#portfolio" class="btn btn-primary">View My Work <i class="ph ph-arrow-right"></i></a>
+                        <a href="#" class="btn btn-text"><i class="ph-fill ph-play-circle"></i> Watch Intro</a>
+                    </div>
+                    
+                    <div class="trusted-by">
+                        <span>Trusted by clients worldwide</span>
+                        <div class="client-logos">
+                            <!-- Placeholder text for logos as per design -->
+                            <div class="logo-item">Google</div>
+                            <div class="logo-item"><i class="ph-fill ph-microsoft-logo"></i> Microsoft</div>
+                            <div class="logo-item">airbnb</div>
+                            <div class="logo-item"><i class="ph-fill ph-slack-logo"></i> slack</div>
+                            <div class="logo-item"><i class="ph-fill ph-dropbox-logo"></i> Dropbox</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <div class="hero-bg-shapes"></div>
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Akshar Gupta" class="hero-image">
+                    <div class="experience-badge">
+                        <span class="years">5+</span>
+                        <span class="text">Years of<br>Experience</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section id="services" class="services-section">
+                <div class="section-header">
+                    <span class="subtitle">WHAT I DO</span>
+                    <h2>Services I Offer</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="icon-wrapper"><i class="ph ph-rocket-launch"></i></div>
+                        <h3>UI/UX Design</h3>
+                        <p>Designing intuitive and engaging user experiences that drive results.</p>
+                        <a href="#" class="learn-more">Learn More <i class="ph ph-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-wrapper"><i class="ph ph-code"></i></div>
+                        <h3>Web Development</h3>
+                        <p>Building fast, responsive and modern websites with clean code.</p>
+                        <a href="#" class="learn-more">Learn More <i class="ph ph-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-wrapper"><i class="ph ph-device-mobile"></i></div>
+                        <h3>Mobile Design</h3>
+                        <p>Crafting beautiful and usable mobile app designs.</p>
+                        <a href="#" class="learn-more">Learn More <i class="ph ph-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-wrapper"><i class="ph ph-paint-brush"></i></div>
+                        <h3>Brand Identity</h3>
+                        <p>Creating unique brand identities that stand out from the crowd.</p>
+                        <a href="#" class="learn-more">Learn More <i class="ph ph-arrow-right"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio Section -->
+            <section id="portfolio" class="portfolio-section">
+                <div class="section-header flex-between">
+                    <div>
+                        <span class="subtitle">MY WORK</span>
+                        <h2>Featured Projects</h2>
+                    </div>
+                    <a href="#" class="view-all">View All Projects <i class="ph ph-arrow-right"></i></a>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dashboard">
+                        </div>
+                        <div class="project-info">
+                            <span class="tag">Dashboard</span>
+                            <h3>Analytics Dashboard</h3>
+                            <span class="category">UI/UX Design</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Landing Page">
+                        </div>
+                        <div class="project-info">
+                            <span class="tag">Website</span>
+                            <h3>SaaS Landing Page</h3>
+                            <span class="category">UI/UX Design</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1607004468138-c7e638b97b00?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Ecommerce">
+                        </div>
+                        <div class="project-info">
+                            <span class="tag">Website</span>
+                            <h3>Ecommerce Website</h3>
+                            <span class="category">UI/UX Design</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Stats Banner -->
+            <div class="stats-banner">
+                <div class="stat-item">
+                    <i class="ph ph-smiley"></i>
+                    <div>
+                        <h4>80+</h4>
+                        <span>Happy Clients</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="ph ph-folder-open"></i>
+                    <div>
+                        <h4>120+</h4>
+                        <span>Projects Completed</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="ph ph-coffee"></i>
+                    <div>
+                        <h4>5+</h4>
+                        <span>Years Experience</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="ph ph-trophy"></i>
+                    <div>
+                        <h4>15+</h4>
+                        <span>Awards Received</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonials -->
+            <section id="testimonials" class="testimonials-section">
+                <div class="section-header text-center">
+                    <span class="subtitle">TESTIMONIALS</span>
+                    <h2>What Clients Say</h2>
+                </div>
+                <div class="testimonials-grid">
+                    <button class="nav-btn prev"><i class="ph ph-caret-left"></i></button>
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <p>Akshar is a fantastic designer! He understood our requirements perfectly and delivered beyond our expectations.</p>
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Sarah Johnson">
+                            <div>
+                                <h4>Sarah Johnson</h4>
+                                <span>CEO, TechCorp</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <p>Professional, creative and highly skilled. Will definitely work with Akshar again!</p>
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="David Brown">
+                            <div>
+                                <h4>David Brown</h4>
+                                <span>Founder, DevStudio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <p>Great communication and amazing attention to detail. Highly recommended!</p>
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Emily Davis">
+                            <div>
+                                <h4>Emily Davis</h4>
+                                <span>Product Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="nav-btn next"><i class="ph ph-caret-right"></i></button>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact-section">
+                <div class="contact-cta">
+                    <div class="icon-wrapper"><i class="ph ph-paper-plane-tilt"></i></div>
+                    <h2>Let's Work<br>Together!</h2>
+                    <p>Have a project in mind?<br>Let's create something great.</p>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <div class="input-group">
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <textarea placeholder="Your Message" rows="4" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message <i class="ph ph-paper-plane-tilt"></i></button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="icon"><i class="ph ph-envelope-simple"></i></div>
+                        <div>
+                            <span>Email</span>
+                            <p>hello@akshargupta.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon"><i class="ph ph-phone"></i></div>
+                        <div>
+                            <span>Phone</span>
+                            <p>+1 234 567 8900</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon"><i class="ph ph-map-pin"></i></div>
+                        <div>
+                            <span>Location</span>
+                            <p>San Francisco, CA</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
