@@ -63,3 +63,13 @@ window.addEventListener('scroll', () => {
     
     requestAnimationFrame(() => render(frameIndex));
 });
+
+// Mobile Menu Toggle
+const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+const sidebar = document.querySelector('.sidebar');
+
+if (mobileMenuBtn && sidebar) {
+    mobileMenuBtn.addEventListener('click', () => {
+        sidebar.classList.toggle('active');
+    });
+}
