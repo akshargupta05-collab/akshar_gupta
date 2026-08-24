@@ -995,3 +995,43 @@ section {
         gap: 1rem;
     }
 }
+
+/* Small Mobile (480px and below) */
+@media screen and (max-width: 480px) {
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+    }
+    
+    .section-header h2 {
+        font-size: 2rem;
+    }
+
+    .content-area {
+        padding: 0 1rem 2rem 1rem;
+    }
+
+    .hire-me-card {
+        padding: 1rem;
+    }
+
+    .stat-item h4 {
+        font-size: 1.5rem;
+    }
+
+    .contact-cta h2 {
+        font-size: 2rem;
+    }
+    
+    .contact-cta, .contact-form-container, .contact-info {
+        padding: 1.5rem;
+    }
+}
