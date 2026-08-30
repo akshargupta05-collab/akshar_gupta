@@ -799,7 +799,7 @@ section {
 }
 
 .contact-form input, .contact-form textarea {
-    width: 100px;
+    width: 200px;
     background: rgba(0,0,0,0.3);
     border: 1px solid var(--border-color);
     padding: 1rem 1.5rem;
